@@ -1,0 +1,48 @@
+.btn_project_default {
+    font-size: 18px;
+    background-image: none;
+    padding: 12px 25px;
+    box-shadow: none;
+    text-shadow: none;
+    color: var(--color_primary);
+    border: 1px solid #413E3E;
+    outline: none !important;
+    border-radius: 40px;
+    text-decoration: none;
+    @media only screen and (max-width: 767px) {
+        padding: 8px 18px;
+    }
+
+    &:hover {
+        background-color: var(--color_primary);
+        color: white;
+    }
+
+    &:active {
+        background-color: var(--color_primary);
+        color: white;
+    }
+
+    &:focus {
+        background-color: var(--color_primary);
+        color: white;
+    }
+    &.black_btn{
+        color: var(--white-color);
+        background-color: var(--color_primary);
+        &:hover {
+            background-color: var(--white-color);
+            color: var(--color_primary);
+        }
+    
+        &:active {
+            background-color: var(--white-color);
+            color: var(--color_primary);
+        }
+    
+        &:focus {
+            background-color: var(--white-color);
+            color: var(--color_primary);
+        }
+    }
+}
