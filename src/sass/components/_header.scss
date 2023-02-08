@@ -16,7 +16,14 @@
     gap: 2rem;
     max-width: 100%;
     height: auto;
-    padding: 22px 0;
+    padding: 18px 0;
+  }
+
+  .logo_main{
+    
+    @media only screen and (min-width: 768px) {
+      width: 22%;
+    }
   }
 
   .burger {
@@ -68,6 +75,7 @@
       visibility: visible;
       background: none;
       box-shadow: none;
+      width: 78%;
     }
 
     &.is-active {
@@ -83,6 +91,9 @@
 
       @media only screen and (min-width: 768px) {
         margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
     }
 
@@ -113,6 +124,15 @@
 
       @media only screen and (min-width: 768px) {
         padding: 0.5rem 0;
+      }
+    }
+  }
+
+  .account_right{
+    li{
+      @media only screen and (max-width: 767px) {
+        margin-top: 15px;
+        padding-left: 20px;
       }
     }
   }
