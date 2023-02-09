@@ -10,23 +10,24 @@
 <!--<![endif]-->
 
 <head>
-    <?php include("includes/include_css.html") ?>
+  <?php include("includes/include_css.html") ?>
 </head>
 
 <body>
-    <?php include("includes/browser_upgrade.html") ?>
-    <?php include("includes/loader.html") ?>
-    <?php include("includes/header.html") ?>
-    <?php include("includes/sidebar.html") ?>
+  <?php include("includes/browser_upgrade.html") ?>
+  <?php include("includes/loader.html") ?>
+  <?php include("includes/header.html") ?>
+  <?php include("includes/sidebar.html") ?>
 
-    <main id="index_page" class="smooth_scroll_pages">
-        <!--  insert body content  -->
+  <main id="index_page" class="smooth_scroll_pages">
+    <!--  insert body content  -->
 
-        
 
-        <!--  end body content -->
-    </main>
-    <?php include("includes/include_js.html") ?>
+
+    <!--  end body content -->
+  </main>
+  <?php include("includes/footer.html") ?>
+  <?php include("includes/include_js.html") ?>
 
 </body>
 

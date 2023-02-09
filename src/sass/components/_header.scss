@@ -19,9 +19,8 @@
     padding: 18px 0;
   }
 
-  .logo_main{
-    
-    @media only screen and (min-width: 768px) {
+  .logo_main {
+    @media only screen and (min-width: 992px) {
       width: 22%;
     }
   }
@@ -36,7 +35,7 @@
     opacity: 1;
     visibility: visible;
     background-color: unset;
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 992px) {
       display: none;
       opacity: 0;
       visibility: hidden;
@@ -58,7 +57,7 @@
     position: fixed;
     top: 0;
     left: -19rem;
-    width: 19rem;
+    width: 90%;
     height: 100%;
     z-index: 999;
     opacity: 0;
@@ -66,7 +65,7 @@
     visibility: hidden;
     transition: all 0.5s ease;
     background-color: white;
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 992px) {
       position: relative;
       top: 0;
       left: 0;
@@ -89,7 +88,7 @@
       height: auto;
       margin: 2rem 0;
 
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 992px) {
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -101,10 +100,13 @@
       display: block;
       margin: 0;
 
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 992px) {
         position: relative;
         display: inline-block;
         margin: 0 0.625rem;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        margin: 0 0.225rem;
       }
     }
 
@@ -121,18 +123,26 @@
       color: var(--color_primary);
       &:hover {
       }
-
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 17px;
+      }
+      @media only screen and (min-width: 992px) {
         padding: 0.5rem 0;
       }
     }
   }
 
-  .account_right{
-    li{
-      @media only screen and (max-width: 767px) {
+  .account_right {
+    li {
+      @media only screen and (max-width: 991px) {
         margin-top: 15px;
         padding-left: 20px;
+      }
+    }
+    a {
+      @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 17px;
+        padding: 10px 20px;
       }
     }
   }
@@ -150,6 +160,18 @@
       display: block;
       opacity: 1;
       visibility: visible;
+    }
+  }
+
+  .close_menu_icon {
+    display: none !important;
+    @media only screen and (max-width: 991px) {
+      display: block !important;
+      font-size: 30px !important;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      color: var(--color_primary);
     }
   }
 }
