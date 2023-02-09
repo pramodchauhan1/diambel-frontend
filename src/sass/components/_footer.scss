@@ -26,7 +26,7 @@ footer {
 
     .footer_logos {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       padding-bottom: 60px;
       @include mv-media(max, 767px) {
@@ -103,6 +103,7 @@ footer {
             &:active {
               // color: #fff;
               transition: all 0.3s;
+              font-weight: 500;
             }
           }
         }

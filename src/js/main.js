@@ -54,6 +54,17 @@ $(document).ready(function (evt) {
 
   //=====================================index page script========================================
   if (indexPage == 1) {
+    $(".hallmark_slider").slick({
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      vertical: true,
+      verticalSwiping: true,
+    });
   }
 });
 

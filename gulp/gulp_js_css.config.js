@@ -1,8 +1,8 @@
 function jscss() {
   var pathconfig = {
     css_path: [
-      //			'./src/css/slick.css',
-      //			'./src/css/slick-theme.css',
+      "./src/css/slick.css",
+      "./src/css/slick-theme.css",
       "./src/css/style.css",
     ],
 
@@ -13,7 +13,7 @@ function jscss() {
       // './src/js/vendor/lazysizes.min.js',
       //'./src/js/vendor/jquery.validate.min.js',
       //'./src/js/vendor/jquery.form.min.js',
-      //'./src/js/vendor/slick.min.js',
+      "./src/js/vendor/slick.min.js",
       //'./src/js/vendor/scrollmagic/TweenMax.min.js',
       //'./src/js/vendor/scrollmagic/ScrollMagic.min.js',
       //'./src/js/vendor/scrollmagic/animation.gsap.min.js',

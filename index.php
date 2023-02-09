@@ -22,7 +22,31 @@
   <main id="index_page" class="smooth_scroll_pages">
     <!--  insert body content  -->
 
-
+    <section class="hallmark_credibilty ptb_30">
+      <div class="container">
+        <div class="hallmark_credibilty_inside">
+          <div class="hallmark_title">
+            <h2 class="text_lg">The hallmark of credibility</h2>
+          </div>
+          <div class="hallmark_credibilty_right">
+            <div class="hallmark_slider">
+              <div class="hallmark_item">
+                <img src="img/home/sightholder_logo.png" alt="logo" />
+              </div>
+              <div class="hallmark_item">
+                <img src="img/home/sightholder_logo.png" alt="logo" />
+              </div>
+              <div class="hallmark_item">
+                <img src="img/home/sightholder_logo.png" alt="logo" />
+              </div>
+            </div>
+            <div class="hallmark_btn">
+              <a class="btn_project_default" href="">View Certification</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--  end body content -->
   </main>

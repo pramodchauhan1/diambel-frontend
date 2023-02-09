@@ -245,3 +245,26 @@ h6 {
     transform: translateX(100px);
   }
 }
+
+// slick slider dots css start here
+.slick-dots {
+  li {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    button {
+      width: 8px;
+      height: 8px;
+      &::before {
+        content: " ";
+        width: 8px;
+        height: 8px;
+        background-color: var(--secondary-color);
+        border-radius: 50%;
+      }
+    }
+  }
+  li.slick-active button:before {
+    opacity: 1;
+  }
+}
