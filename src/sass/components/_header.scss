@@ -6,9 +6,9 @@
   width: 100%;
   height: auto;
   z-index: 999;
-  box-shadow: 0 0 14px -10px #333;
+  // box-shadow: 0 0 14px -10px #333;
   //   margin: 0 auto;
-
+  background-color: #fcf9f8;
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -16,7 +16,7 @@
     gap: 2rem;
     max-width: 100%;
     height: auto;
-    padding: 18px 0;
+    padding: 23px 0;
   }
 
   .logo_main {
@@ -112,7 +112,6 @@
 
     &-link {
       display: block;
-      font-family: inherit;
       font-size: 18px;
       line-height: inherit;
       padding: 0.625rem 1.5rem;
@@ -121,7 +120,9 @@
       transition: all 0.35s ease;
       text-decoration: none;
       color: var(--color_primary);
+      font-family: var(--work_sans);
       &:hover {
+        font-weight: 500;
       }
       @media only screen and (min-width: 768px) and (max-width: 1199px) {
         font-size: 17px;
