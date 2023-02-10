@@ -25,7 +25,7 @@
   font-size: 26px;
   line-height: 40px;
   color: var(--color_primary);
-  font-family: var(--marcellus_r);
+  font-family: var(--work_sans);
   @include sm-down {
     font-size: 24px;
   }
@@ -37,6 +37,7 @@
   font-family: var(--marcellus_r);
   @include sm-down {
     font-size: 30px;
+    line-height: 40px;
   }
 }
 .text_xl {
@@ -53,8 +54,13 @@
   line-height: 63px;
   color: var(--color_primary);
   font-family: var(--marcellus_r);
-  @include sm-down {
+  @include md-down {
     font-size: 40px;
+    line-height: 50px;
+  }
+  @include sm-down {
+    font-size: 36px;
+    line-height: 40px;
   }
 }
 

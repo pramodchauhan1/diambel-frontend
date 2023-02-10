@@ -65,6 +65,96 @@ $(document).ready(function (evt) {
       vertical: true,
       verticalSwiping: true,
     });
+
+    $(".tab-a").click(function () {
+      $(".tab-box").removeClass("tab-active");
+      $(".tab-box[data-id='" + $(this).attr("data-id") + "']").addClass(
+        "tab-active"
+      );
+      $(".tab-a").removeClass("active-a");
+      $(this).parent().find(".tab-a").addClass("active-a");
+      $(".our_catalogue_slider").slick("refresh");
+      $(".our_catalogue_slider_two").slick("refresh");
+    });
+
+    function progressbar(sliderName, progressClass) {
+      var $slider = $(sliderName);
+      var $progressBar = $(progressClass);
+      var $progressBarLabel = $(".progress_bar");
+      $slider.on(
+        "beforeChange",
+        function (event, slick, currentSlide, nextSlide) {
+          var calc = (nextSlide / (slick.slideCount - 1)) * 100;
+
+          $progressBar
+            .css("background-size", calc + "% 100%")
+            .attr("aria-valuenow", calc);
+
+          $progressBarLabel.text(calc + "% completed");
+        }
+      );
+    }
+    progressbar(".our_catalogue_slider", ".progress1");
+    progressbar(".our_catalogue_slider_two", ".progress2");
+    // progressbar(".customers_slider", ".progress3");
+    // progressbar("#quick_reads_slider", ".progress4");
+
+    $(".our_catalogue_slider").slick({
+      dots: false,
+      autoplay: true,
+      arrows: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      pauseOnHover: false,
+      prevArrow:
+        '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
+      nextArrow:
+        '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+            dots: true,
+          },
+        },
+      ],
+    });
+    $(".our_catalogue_slider_two").slick({
+      dots: false,
+      autoplay: true,
+      arrows: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      pauseOnHover: false,
+      prevArrow:
+        '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
+      nextArrow:
+        '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+            dots: true,
+          },
+        },
+      ],
+    });
   }
 });
 
