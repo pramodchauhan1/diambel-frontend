@@ -55,6 +55,9 @@
               display: block;
             }
           }
+          .slick-list {
+            padding-bottom: 0px;
+          }
         }
         .hallmark_btn {
           width: 40%;
@@ -322,11 +325,67 @@
   .solutions_diamonds {
     .solutions_diamonds_flex {
       justify-content: space-between;
+      @include mv-media(max, 767px) {
+        flex-wrap: wrap;
+      }
       .solutions_diamonds_left {
         width: 45%;
+        position: relative;
+        @include mv-media(max, 767px) {
+          width: 100%;
+        }
+        .solution_main_img{
+          position: relative;
+        }
+        .p_s{
+          position: absolute;
+        }
+        .solutions_layer_one{
+          top: -15px;
+          right: 15px;
+        }
+        .solutions_layer_two{
+          top: 78px;
+          left: -10px;
+        }
+        .solutions_layer_three{
+          bottom: -15px;
+          left: 50px;
+        }
       }
       .solutions_diamonds_right {
         width: 55%;
+        padding-left: 60px;
+        @include mv-media(max, 767px) {
+          width: 100%;
+        }
+
+        .faq_section{
+          .faq_box{
+            border-top: 1px solid rgba(60, 14, 34, 0.50);
+            &:last-child{
+              border-bottom: 1px solid rgba(60, 14, 34, 0.50);
+            }
+            .faq_title{
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              h5{
+                color: var(--secondary-color);
+              }
+              span{
+                i{   
+                  color: var(--color_primary);
+                  font-size: 24px;
+                }
+              }
+            }
+            .content{
+              display: none;
+            }
+          }
+        }
       }
     }
   }

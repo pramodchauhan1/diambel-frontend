@@ -442,10 +442,84 @@
 
           <div class="solutions_diamonds_flex d_flex">
             <div class="solutions_diamonds_left">
-              <img class="border_r15" src="img/home/solutions_img.jpg" alt="solutions_img" />
+              <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
+              <img class="solutions_layer_one p_s" src="img/home/solutions_layer_one.png" alt="solutions_img" />
+              <img class="solutions_layer_two p_s" src="img/home/solutions_layer_two.png" alt="solutions_img" />
+              <img class="solutions_layer_three p_s" src="img/home/solutions_layer_three.png" alt="solutions_img" />
             </div>
             <div class="solutions_diamonds_right">
+              <div class="faq_section">
+                <div class="faq_box ptb_20">
+                  <a href="javascript:void(0)" class="faq_title">
+                    <h5 class="text_md">Inventory Management</h5>
+                    <span>
+                    <i class="fa-solid fa-minus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20" style="display:block">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                  </div>
+                </div>
+                <div class="faq_box ptb_20">
+                  <a href="javascript:void(0)" class="faq_title">
+                    <h5 class="text_md ">Tech Support</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                  </div>
+                </div>
 
+                <div class="faq_box ptb_20">
+                  <a href="javascript:void(0)" class="faq_title">
+                    <h5 class="text_md">Customer Support</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                  </div>
+                </div>
+
+                <div class="faq_box ptb_20">
+                  <a href="javascript:void(0)" class="faq_title">
+                    <h5 class="text_md">Marketing</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                  </div>
+                </div>
+
+                <div class="faq_box ptb_20">
+                  <a href="javascript:void(0)" class="faq_title">
+                    <h5 class="text_md">Lorem Ipsum</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                  </div>
+                </div>
+                <div class="faq_box ptb_20">
+                  <a href="javascript:void(0)" class="faq_title">
+                    <h5 class="text_md">Lorem Ipsum</h5>
+                    <span>
+                      <i class="fa-solid fa-plus"></i>
+                    </span>
+                  </a>
+                  <div class="content pt_20">
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
 
@@ -462,7 +536,31 @@
   <script>
   $(document).ready(function(evt) {
 
-
+    $(".faq_section .faq_box > a").on("click", function () {
+        if ($(this).hasClass("active")) {
+          $(this).removeClass("active");
+          $(this)
+            .siblings(".content")
+            .slideUp(200);
+          $(".faq_box > a i")
+            .removeClass("fa-minus")
+            .addClass("fa-plus");
+        } else {
+          $(".faq_box > a i")
+            .removeClass("fa-minus")
+            .addClass("fa-plus");
+          $(this)
+            .find("i")
+            .removeClass("fa-plus")
+            .addClass("fa-minus");
+          $(".faq_box > a").removeClass("active");
+          $(this).addClass("active");
+          $(".content").slideUp(200);
+          $(this)
+            .siblings(".content")
+            .slideDown(200);
+        }
+      });
 
 
 
