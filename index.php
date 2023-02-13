@@ -605,6 +605,41 @@
       </div>
     </section>
 
+    <section class="review_main">
+      <div class="review_bg_img">
+        <img src="img/home/review_img.jpg" alt="review_img" />
+      </div>
+      <div class="review_content">
+        <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
+        <!-- <div class="review_layer">
+          
+        </div> -->
+        <div class="review_content_inside">
+          <img class="quate" src="img/home/quate.png" alt="quate" />
+          <p class="text_reg">
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s 
+          </p>
+          <div class="star ptb_20">
+            <img class="star" src="img/home/star.png" alt="star" />
+          </div>
+          <div class="name_bottom d_flex">
+            <div class="name_left">
+              <p class="text_reg">
+                Pranav Dandge
+              </p>
+              <p class="text_reg designation">
+                Action VFX, Owner
+              </p>
+            </div>
+            <div class="name_right">
+              <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <!--  end body content -->
   </main>
   <?php include("includes/footer.html") ?>

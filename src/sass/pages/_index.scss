@@ -482,6 +482,71 @@
     }
     
   }
+
+  .review_main{
+    position: relative;
+    .review_bg_img{
+      img{
+        width: 100%;
+      }
+    }
+    .review_content{
+      right: calc(var(--container_left_space) + 30px);
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      border-radius: 15px;
+      width: 660px;
+      padding: 50px 50px 40px;
+      background-color: rgba(60, 14, 34, 0.36);
+      backdrop-filter: blur(34px);
+
+      .review_layer_one{   
+        position: absolute;
+        bottom: -40px;
+        left: -40px;
+      }
+      .review_content_inside{
+        position: relative;
+        .quate{
+          position: absolute;
+          top: -70px;
+        }
+        
+        p{
+          color: var(--white-color);
+          font-weight: 300;
+        }
+        .star{
+
+        }
+        .name_bottom{
+          justify-content: space-between;
+          .name_left{
+            .text_reg{
+              font-size: 14px;
+              font-weight: 500 !important;
+            }
+            .designation{
+              color: #8b8989;
+            }
+          }
+          .name_right{
+            span{
+              width: 62px;
+              height: 62px;
+              background-color: #fff;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+      
+    }
+  }
 }
 
 
