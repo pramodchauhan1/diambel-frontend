@@ -167,6 +167,17 @@ $(document).ready(function (evt) {
       fade: true,
       cssEase: "linear",
     });
+
+    $(".logo_slider").slick({
+      dots: false,
+      infinite: false,
+      autoplay: false,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      variableWidth: true,
+    });
   }
 });
 

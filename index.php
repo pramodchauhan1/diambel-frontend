@@ -554,6 +554,57 @@
 
     </section>
 
+    <section class="crystallising_main ptb_100">
+      <div class="container">
+        <div class="title_info pb_40">
+          <div class="title">
+            <h2 class="text_xl pb_20">Crystallising partnerships <br class="hidden-xs">for 30+ years</h2>
+            <p class="text_reg">Businesses across the pipeline have put their faith in us.</p>
+          </div>
+        </div>
+      </div>
+      <div class="crystallising_logo">
+        <div class="logo_slider">
+          <div class="logo_item">
+            <img src="img/home/unilever_logo.jpg" alt="unilever_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/johnson_logo.jpg" alt="johnson_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/diamond_logo.jpg" alt="diamond_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/ITC_logo.jpg" alt="ITC_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/GAIA_logo.jpg" alt="GAIA_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/fresenius_logo.jpg" alt="fresenius_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/unilever_logo.jpg" alt="unilever_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/johnson_logo.jpg" alt="johnson_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/diamond_logo.jpg" alt="diamond_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/ITC_logo.jpg" alt="ITC_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/GAIA_logo.jpg" alt="GAIA_logo" />
+          </div>
+          <div class="logo_item">
+            <img src="img/home/fresenius_logo.jpg" alt="fresenius_logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--  end body content -->
   </main>
   <?php include("includes/footer.html") ?>
