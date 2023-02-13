@@ -356,8 +356,13 @@
       .solutions_diamonds_right {
         width: 55%;
         padding-left: 60px;
+        @include mv-media(max, 991px) {
+          padding-left: 30px;
+        }
         @include mv-media(max, 767px) {
           width: 100%;
+          padding-left: 0px;
+          padding-top: 30px;
         }
 
         .faq_section{
@@ -385,6 +390,67 @@
               display: none;
             }
           }
+        }
+      }
+    }
+  }
+
+  .working_across{
+    position: relative;
+    overflow: hidden;
+    .p_s{
+      position: absolute;
+    }
+    .working_layer_one{
+      left: -20px;
+      top: 200px;
+      @include mv-media(max, 767px) {
+        display: none;
+      }
+    }
+    .working_layer_two{
+      right: 15%;
+      top: 40%;
+      @include mv-media(max, 767px) {
+        display: none;
+      }
+    }
+    .working_layer_three{
+      right: -20px;
+      bottom: 100px;
+      @include mv-media(max, 767px) {
+        display: none;
+      }
+    }
+    .working_layer_four{
+      left: -20px;
+      bottom: 150px;
+      @include mv-media(max, 767px) {
+        display: none;
+      }
+    }
+    .title_info{
+      width: 600px;
+      margin: 0 auto;
+      text-align: center;
+      @include mv-media(max, 767px) {
+        width: 100%;
+      }
+      .title{
+        width: 100%; 
+        
+      }
+    }
+
+    .working_across_slider{
+      width: 550px;
+      margin: 0 auto;
+      @include mv-media(max, 767px) {
+        width: 100%;
+      }
+      .working_across_slider_content{
+        img{
+          margin: 0 auto;
         }
       }
     }

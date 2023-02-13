@@ -155,6 +155,18 @@ $(document).ready(function (evt) {
         },
       ],
     });
+
+    $(".working_across_slider").slick({
+      dots: false,
+      infinite: false,
+      autoplay: false,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      fade: true,
+      cssEase: "linear",
+    });
   }
 });
 

@@ -526,6 +526,32 @@
         </div>
       </div>
 
+      <div class="working_across pt_100">
+        <img class="working_layer_one p_s" src="img/home/working_layer_one.png" alt="working_layer" />
+        <img class="working_layer_two p_s" src="img/home/working_layer_two.png" alt="working_layer" />
+        <img class="working_layer_three p_s" src="img/home/working_layer_three.png" alt="working_layer" />
+        <img class="working_layer_four p_s" src="img/home/working_layer_four.png" alt="working_layer" />
+        <div class="container">
+          <div class="title_info pb_40">
+            <div class="title">
+              <h2 class="text_xl pb_20">Working across the pipeline</h2>
+              <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry, offering end-to-end solutions in rough and polished diamonds as well as jewelry.</p>
+            </div>
+          </div>
+          <div class="working_across_slider">
+            <div class="working_across_slider_content">
+              <img class="" src="img/home/rough.png" alt="rough" />
+            </div>
+            <div class="working_across_slider_content">
+              <img class="" src="img/home/polished.png" alt="polished" />
+            </div>
+            <div class="working_across_slider_content">
+              <img class="" src="img/home/jewellery.png" alt="jewellery" />
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <!--  end body content -->
