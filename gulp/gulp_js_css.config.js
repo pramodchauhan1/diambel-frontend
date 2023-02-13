@@ -58,6 +58,7 @@ function jscss() {
       // end
       "./src/js/plugins.js",
       "./src/js/main.js",
+      "./src/js/components/cust.js",
     ],
   };
 
