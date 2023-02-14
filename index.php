@@ -617,130 +617,140 @@
       <!-- <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
       <img class="review_layer_two" src="img/home/review_layer_two.png" alt="review_layer_two" /> -->
       <img class="review_layer_three" src="img/home/solutions_layer_one.png" alt="solutions_layer_one" />
-      <div class="review_bg_img">
+      <!-- <div class="review_bg_img">
         <img src="img/home/review_img.jpg" alt="review_img" />
-      </div>
+      </div> -->
 
-      <div class="review_content_slider">
+      <div class="container">
+        <div class="review_content_slider">
 
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
               </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
               </div>
             </div>
+
+          </div>
+
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
+              </div>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
+              </div>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
+              </div>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
+              </div>
+            </div>
+
           </div>
 
         </div>
-
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
-              </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
-              </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
-              </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
 
     </section>
@@ -916,6 +926,24 @@
 
         <div class="progress progress_green progress4">
           <div class="progress_bar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get_started">
+      <div class="container">
+        <div class="get_started_flex d_flex ptb_40">
+          <div class="get_started_left">
+            <h2 class="text_xxl">Let’s get started</h2>
+          </div>
+          <div class="get_started_right">
+            <div class="btn_box">
+              <a class="btn_project_default black_btn" href="">Create Account</a>
+            </div>
+            <div class="inquire_btn">
+              <a class="btn_project_default" href="">Inquire Now</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
