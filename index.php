@@ -96,7 +96,7 @@
 
           <div class="values_shape_box border_r15">
             <div class="value_shape_img">
-              <img src="img/home/adaptability_hover.png" alt="adaptability" />
+              <img src="img/home/adaptive.png" alt="adaptability" />
             </div>
             <div class="value_hover_img">
               <img src="img/home/vector_hover.png" alt="vector_hover" />
@@ -743,6 +743,181 @@
 
       </div>
 
+    </section>
+
+    <section class="upcoming_events ptb_100">
+      <div class="container">
+
+        <div class="title_info d_flex pb_40">
+          <div class="title">
+            <h2 class="text_xxl">Upcoming events</h2>
+          </div>
+          <div class="btn_box">
+            <a class="btn_project_default black_btn" href="">View All</a>
+          </div>
+        </div>
+
+        <div class="upcoming_events_flex d_flex upcoming_events_slider">
+
+          <div class="upcoming_events_content">
+            <div class="upcoming_events_box border_r15">
+              <div class="upcoming_btn pb_30">
+                <a class="btn_project_default" href="">Abu Dhabi</a>
+              </div>
+              <h5 class="text_md ">Diamond Expo 2023</h5>
+              <div class="upcoming_events_desc">
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                </p>
+
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">January 8 - 10</span>
+                </p>
+                <div class="book_appointment_btn pt_40">
+                  <a class="btn_project_default" href="">Book Appoinment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="upcoming_events_content">
+            <div class="upcoming_events_box border_r15">
+              <div class="upcoming_btn pb_30">
+                <a class="btn_project_default" href="">Abu Dhabi</a>
+              </div>
+              <h5 class="text_md ">Diamond Expo 2023</h5>
+              <div class="upcoming_events_desc">
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                </p>
+
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">January 8 - 10</span>
+                </p>
+                <div class="book_appointment_btn pt_40">
+                  <a class="btn_project_default" href="">Book Appoinment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="upcoming_events_content">
+            <div class="upcoming_events_box border_r15">
+              <div class="upcoming_btn pb_30">
+                <a class="btn_project_default" href="">Abu Dhabi</a>
+              </div>
+              <h5 class="text_md ">Diamond Expo 2023</h5>
+              <div class="upcoming_events_desc">
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                </p>
+
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">January 8 - 10</span>
+                </p>
+                <div class="book_appointment_btn pt_40">
+                  <a class="btn_project_default" href="">Book Appoinment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="upcoming_events_content">
+            <div class="upcoming_events_box border_r15">
+              <div class="upcoming_btn pb_30">
+                <a class="btn_project_default" href="">Abu Dhabi</a>
+              </div>
+              <h5 class="text_md ">Diamond Expo 2023</h5>
+              <div class="upcoming_events_desc">
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/location_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">Abu Dhabi National <br>Exhibition Centre</span>
+                </p>
+
+                <p class="text_reg d_flex">
+                  <span class="icon"><img src="img/home/date_icon.png" alt="location_icon" /></span>
+                  <span class="box_txt">January 8 - 10</span>
+                </p>
+                <div class="book_appointment_btn pt_40">
+                  <a class="btn_project_default" href="">Book Appoinment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="progress progress_green progress3">
+          <div class="progress_bar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="corporate_social pb_100">
+      <div class="container">
+
+        <div class="title_info d_flex pb_40">
+          <div class="title">
+            <h2 class="text_xxl pb_20">Corporate social responsibility</h2>
+            <p class="text_reg">Lorem ipsum dolor sit amet, consetetur sadipscing <br>elitr, sed diam nonumy eirmod
+              tempor.
+            </p>
+          </div>
+          <div class="btn_box">
+            <a class="btn_project_default black_btn" href="">Know More</a>
+          </div>
+        </div>
+
+        <div class="corporate_social_flex corporate_social_slider">
+
+          <div class="corporate_content">
+            <div class="corporate_social_item">
+              <img src="img/home/go_green.jpg" alt="go_green" />
+              <div class="corporate_content">
+                <h6 class="text_md f_w_m">Lorem ipsum dolor
+                  <br>sit amet.
+                  <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="corporate_content">
+            <div class="corporate_social_item">
+              <img src="img/home/go_green.jpg" alt="go_green" />
+              <div class="corporate_content">
+                <h6 class="text_md f_w_m">Lorem ipsum dolor
+                  <br>sit amet.
+                  <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="corporate_content">
+            <div class="corporate_social_item">
+              <img src="img/home/go_green.jpg" alt="go_green" />
+              <div class="corporate_content">
+                <h6 class="text_md f_w_m">Lorem ipsum dolor
+                  <br>sit amet.
+                  <span><a href=""><img src="img/home/arrow_white.png" alt="arrow_white"></a></span>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="progress progress_green progress4">
+          <div class="progress_bar"></div>
+        </div>
+      </div>
     </section>
 
     <!--  end body content -->

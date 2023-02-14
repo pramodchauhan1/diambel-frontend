@@ -192,7 +192,8 @@
     }
   }
   .bg_main {
-    background-color: #efe5df;
+    background: #efe8e1;
+    background: linear-gradient(140deg, #efe8e1 10%, #faf9f9 26%, #eee8e0 70%);
     .our_catalogue {
       .title_info {
         align-items: center;
@@ -608,6 +609,153 @@
     }
     .slick-list {
       padding-bottom: 0px;
+    }
+  }
+
+  .upcoming_events {
+    .upcoming_events_flex {
+      justify-content: space-between;
+      margin: 0px -10px;
+      @include mv-media(max, 991px) {
+        flex-wrap: wrap;
+      }
+      .upcoming_events_content {
+        width: 33.33%;
+        padding: 0px 10px;
+        .upcoming_events_box {
+          position: relative;
+          padding: 50px 40px;
+          margin-top: 30px;
+          border: 1px solid rgba(192, 162, 128, 0.5);
+          background-color: var(--white-color);
+          transition: 0.5s ease-in-out;
+          @include mv-media(max, 1199px) {
+            padding: 15px 15px;
+          }
+
+          &:hover {
+            border: 1px solid #efe5df;
+            box-shadow: 0 15px 18px -3px rgba(212, 190, 168, 0.36);
+            transition: 0.5s ease-in-out;
+            background: rgb(227, 216, 203);
+            background: linear-gradient(
+              140deg,
+              #e3d8cb 10%,
+              #f2f0ed 26%,
+              #ddd0c0 70%
+            );
+          }
+
+          .upcoming_btn {
+            .btn_project_default {
+              border-radius: 7px;
+              background-color: var(--secondary-color);
+              border-color: var(--secondary-color);
+              color: var(--white-color);
+            }
+          }
+
+          .upcoming_events_desc {
+            h6 {
+              font-size: 20px;
+            }
+            .text_reg {
+              align-items: flex-start;
+              margin-top: 15px;
+              .icon {
+                width: 20px;
+              }
+              .box_txt {
+                width: 95%;
+                padding-left: 10px;
+              }
+            }
+            .book_appointment_btn {
+              .btn_project_default {
+                font-size: 20px;
+                border: none;
+                border-bottom: 1px solid #413e3e;
+                border-radius: 0px;
+                padding: 0;
+                font-weight: 400;
+                &:hover {
+                  background-color: transparent;
+                  color: var(--color_primary);
+                }
+              }
+            }
+          }
+          &:hover {
+            box-shadow: 0 15px 18px -3px rgba(212, 190, 168, 0.36);
+            .main_img {
+              opacity: 0;
+              transition: 0.5s ease-in-out;
+            }
+            .hover_img {
+              opacity: 1;
+              transition: 0.5s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+  .corporate_social {
+    .corporate_social_flex {
+      justify-content: space-between;
+      margin: 0px -15px;
+      .corporate_content {
+        padding: 0px 15px;
+      }
+      .corporate_social_item {
+        position: relative;
+        border-radius: 15px;
+
+        &::after {
+          content: " ";
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100%;
+          background-image: linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.25)
+          );
+          border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+        }
+        .corporate_content {
+          position: absolute;
+          width: 100%;
+          bottom: 30px;
+          padding: 0px 25px;
+          z-index: 1;
+          h6 {
+            position: relative;
+            color: var(--white-color);
+            padding-right: 35px;
+            span {
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              a {
+                background-color: var(--secondary-color);
+                width: 30px;
+                height: 30px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+      // .slick-current {
+      //   width: 55%;
+      // }
     }
   }
 }
