@@ -497,13 +497,21 @@
     }
     .review_layer_one {
       position: absolute;
-      bottom: -40px;
-      left: -40px;
+      bottom: -15%;
+      left: 43%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      @include mv-media(max, 991px) {
+        display: none;
+      }
     }
     .review_layer_two {
       position: absolute;
       top: -40px;
       right: -60px;
+      @include mv-media(max, 991px) {
+        display: none;
+      }
     }
     .review_layer_three {
       position: absolute;

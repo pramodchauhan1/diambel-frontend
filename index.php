@@ -614,14 +614,15 @@
 
     <section class="review_main">
 
-      <!-- <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
-      <img class="review_layer_two" src="img/home/review_layer_two.png" alt="review_layer_two" /> -->
+
       <img class="review_layer_three" src="img/home/solutions_layer_one.png" alt="solutions_layer_one" />
       <!-- <div class="review_bg_img">
         <img src="img/home/review_img.jpg" alt="review_img" />
       </div> -->
 
       <div class="container">
+        <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
+        <img class="review_layer_two" src="img/home/review_layer_two.png" alt="review_layer_two" />
         <div class="review_content_slider">
 
           <div class="review_content">
