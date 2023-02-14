@@ -17,11 +17,12 @@
 }
 .banner-sec {
   background-image: url("../../img/intro/banner.jpg");
-  //   height: calc(100vw * 818 / 1452);
-  height: 100vh;
+  height: calc(100vw * 818 / 1452);
+  // height: 100vh;
   background-size: 110%;
   background-repeat: no-repeat;
   transition: all 1.5s;
+  transition-delay: 2s;
   transform-origin: left bottom;
   background-position: center;
   position: relative;
@@ -44,8 +45,9 @@
         display: block;
         transform: translateX(calc(var(--container_width) * -1));
         transition: all 1s;
+        transition-delay: 4s;
         &:nth-child(2) {
-          transition-delay: 1s;
+          transition-delay: 5s;
         }
         &.spanAnim {
           transform: translateX(0);
@@ -58,7 +60,7 @@
       color: var(--secondary-color);
       transform: translateX(calc(var(--container_width) * -1));
       transition: all 1s;
-      transition-delay: 1.2s;
+      transition-delay: 6s;
       &.bannerParaAnim {
         transform: translateX(0);
       }
@@ -73,6 +75,7 @@
     top: 28%;
     transform: translateY(60px);
     transition: all 1.5s;
+    transition-delay: 2s;
     &.DiamondImgAnim {
       transform: translateY(0);
     }
@@ -83,7 +86,7 @@
     top: 22%;
     transform: scaleX(0.4) translateY(40px);
     transition: all 1.5s;
-    transition-delay: 0.5s;
+    transition-delay: 2s;
     opacity: 0;
     transform-origin: center;
     &.bgDiamondImgAnim {
@@ -94,7 +97,7 @@
       position: absolute;
       opacity: 0;
       transition: all 1.5s;
-      transition-delay: 1s;
+      transition-delay: 3s;
       &.str1 {
         top: 0;
         left: 0;
