@@ -231,7 +231,7 @@
         &.tab-active {
           display: block;
         }
-  
+
         .our_catalogue_flex {
           justify-content: space-between;
           margin: 0px -10px;
@@ -250,7 +250,7 @@
               @include mv-media(max, 1199px) {
                 padding: 15px 15px;
               }
-  
+
               h5 {
                 font-size: 22px;
                 font-weight: 500;
@@ -258,7 +258,7 @@
                   color: var(--secondary-color);
                 }
               }
-  
+
               .our_catalogue_img {
                 position: relative;
                 .main_img {
@@ -319,7 +319,7 @@
         }
       }
     }
-  
+
     .solutions_diamonds {
       .solutions_diamonds_flex {
         justify-content: space-between;
@@ -332,21 +332,21 @@
           @include mv-media(max, 767px) {
             width: 100%;
           }
-          .solution_main_img{
+          .solution_main_img {
             position: relative;
           }
-          .p_s{
+          .p_s {
             position: absolute;
           }
-          .solutions_layer_one{
+          .solutions_layer_one {
             top: -15px;
             right: 15px;
           }
-          .solutions_layer_two{
+          .solutions_layer_two {
             top: 78px;
             left: -10px;
           }
-          .solutions_layer_three{
+          .solutions_layer_three {
             bottom: -15px;
             left: 50px;
           }
@@ -362,29 +362,29 @@
             padding-left: 0px;
             padding-top: 30px;
           }
-  
-          .faq_section{
-            .faq_box{
-              border-top: 1px solid rgba(60, 14, 34, 0.50);
-              &:last-child{
-                border-bottom: 1px solid rgba(60, 14, 34, 0.50);
+
+          .faq_section {
+            .faq_box {
+              border-top: 1px solid rgba(60, 14, 34, 0.5);
+              &:last-child {
+                border-bottom: 1px solid rgba(60, 14, 34, 0.5);
               }
-              .faq_title{
+              .faq_title {
                 text-decoration: none;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                h5{
+                h5 {
                   color: var(--secondary-color);
                 }
-                span{
-                  i{   
+                span {
+                  i {
                     color: var(--color_primary);
                     font-size: 24px;
                   }
                 }
               }
-              .content{
+              .content {
                 display: none;
               }
             }
@@ -392,147 +392,176 @@
         }
       }
     }
-  
-    .working_across{
+
+    .working_across {
       position: relative;
       overflow: hidden;
-      .p_s{
+      .p_s {
         position: absolute;
       }
-      .working_layer_one{
+      .working_layer_one {
         left: -20px;
         top: 200px;
         @include mv-media(max, 767px) {
           display: none;
         }
       }
-      .working_layer_two{
+      .working_layer_two {
         right: 15%;
         top: 40%;
         @include mv-media(max, 767px) {
           display: none;
         }
       }
-      .working_layer_three{
+      .working_layer_three {
         right: -20px;
         bottom: 100px;
         @include mv-media(max, 767px) {
           display: none;
         }
       }
-      .working_layer_four{
+      .working_layer_four {
         left: -20px;
         bottom: 150px;
         @include mv-media(max, 767px) {
           display: none;
         }
       }
-      .title_info{
+      .title_info {
         width: 600px;
         margin: 0 auto;
         text-align: center;
         @include mv-media(max, 767px) {
           width: 100%;
         }
-        .title{
-          width: 100%; 
-          
+        .title {
+          width: 100%;
         }
       }
-  
-      .working_across_slider{
+
+      .working_across_slider {
         width: 550px;
         margin: 0 auto;
         @include mv-media(max, 767px) {
           width: 100%;
         }
-        .working_across_slider_content{
-          img{
+        .working_across_slider_content {
+          img {
             margin: 0 auto;
           }
         }
       }
     }
   }
-  
-  .crystallising_main{
-    .title_info{
-      .title{
+
+  .crystallising_main {
+    .title_info {
+      .title {
         @include mv-media(max, 991px) {
           width: 100%;
         }
       }
     }
-    .crystallising_logo{
-      
-      .logo_slider{
+    .crystallising_logo {
+      .logo_slider {
         margin-left: var(--container_left_space);
-        padding: 0px 15px;    
-        .logo_item{
+        padding: 0px 15px;
+        .logo_item {
           width: 240px;
           @include mv-media(max, 767px) {
             width: 240px;
           }
-          img{
+          img {
             margin: 0 auto;
           }
         }
-        
       }
     }
-    
   }
 
-  .review_main{
+  .review_main {
     position: relative;
-    .review_bg_img{
-      img{
+    .review_layer_one {
+      position: absolute;
+      bottom: -40px;
+      left: -40px;
+    }
+    .review_layer_two {
+      position: absolute;
+      top: -40px;
+      right: -60px;
+    }
+    .review_layer_three {
+      position: absolute;
+      bottom: -20px;
+      left: 60px;
+    }
+    .review_bg_img {
+      img {
         width: 100%;
+        @include mv-media(max, 1199px) {
+          height: 32rem;
+          object-fit: cover;
+          object-position: center;
+        }
+        @include mv-media(max, 767px) {
+          height: 40rem;
+          object-fit: cover;
+          object-position: center;
+        }
       }
     }
-    .review_content{
+    .review_content_slider {
       right: calc(var(--container_left_space) + 30px);
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      border-radius: 15px;
       width: 660px;
+      margin-bottom: 0px;
+      @include mv-media(max, 767px) {
+        width: 100%;
+        right: 0px;
+        padding: 0px 15px;
+      }
+    }
+    .review_content {
+      border-radius: 15px;
       padding: 50px 50px 40px;
       background-color: rgba(60, 14, 34, 0.36);
       backdrop-filter: blur(34px);
-
-      .review_layer_one{   
-        position: absolute;
-        bottom: -40px;
-        left: -40px;
+      margin: 20px 0px;
+      @include mv-media(max, 767px) {
+        padding: 40px 20px 30px;
       }
-      .review_content_inside{
+      .review_content_inside {
         position: relative;
-        .quate{
+        .quate {
           position: absolute;
           top: -70px;
+          @include mv-media(max, 767px) {
+            top: -55px;
+          }
         }
-        
-        p{
+
+        p {
           color: var(--white-color);
           font-weight: 300;
         }
-        .star{
-
+        .star {
         }
-        .name_bottom{
+        .name_bottom {
           justify-content: space-between;
-          .name_left{
-            .text_reg{
+          .name_left {
+            .text_reg {
               font-size: 14px;
               font-weight: 500 !important;
             }
-            .designation{
+            .designation {
               color: #8b8989;
             }
           }
-          .name_right{
-            span{
+          .name_right {
+            span {
               width: 62px;
               height: 62px;
               background-color: #fff;
@@ -544,9 +573,41 @@
           }
         }
       }
-      
+    }
+    .slick-dots {
+      right: -40px;
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: 0px;
+      width: max-content;
+      height: max-content;
+      @include mv-media(max, 767px) {
+        width: 100%;
+        right: 0px;
+        bottom: -35px;
+        top: initial;
+      }
+      li {
+        margin: 5px 7px;
+        display: block;
+        width: 10px;
+        height: 10px;
+        @include mv-media(max, 767px) {
+          display: inline-block;
+        }
+        button {
+          width: 10px;
+          height: 10px;
+          &::before {
+            width: 10px;
+            height: 10px;
+            background-color: var(--white-color);
+          }
+        }
+      }
+    }
+    .slick-list {
+      padding-bottom: 0px;
     }
   }
 }
-
-

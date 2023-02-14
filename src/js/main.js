@@ -170,13 +170,25 @@ $(document).ready(function (evt) {
 
     $(".logo_slider").slick({
       dots: false,
-      infinite: false,
-      autoplay: false,
+      infinite: true,
+      autoplay: true,
       arrows: false,
       speed: 1000,
       slidesToShow: 5,
       slidesToScroll: 1,
       variableWidth: true,
+    });
+
+    $(".review_content_slider").slick({
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      vertical: true,
+      verticalSwiping: true,
     });
   }
 });

@@ -453,11 +453,12 @@
                   <a href="javascript:void(0)" class="faq_title">
                     <h5 class="text_md">Inventory Management</h5>
                     <span>
-                    <i class="fa-solid fa-minus"></i>
+                      <i class="fa-solid fa-minus"></i>
                     </span>
                   </a>
                   <div class="content pt_20" style="display:block">
-                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
                   </div>
                 </div>
                 <div class="faq_box ptb_20">
@@ -468,7 +469,8 @@
                     </span>
                   </a>
                   <div class="content pt_20">
-                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
                   </div>
                 </div>
 
@@ -480,7 +482,8 @@
                     </span>
                   </a>
                   <div class="content pt_20">
-                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
                   </div>
                 </div>
 
@@ -492,7 +495,8 @@
                     </span>
                   </a>
                   <div class="content pt_20">
-                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
                   </div>
                 </div>
 
@@ -504,7 +508,8 @@
                     </span>
                   </a>
                   <div class="content pt_20">
-                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
                   </div>
                 </div>
                 <div class="faq_box ptb_20">
@@ -515,7 +520,8 @@
                     </span>
                   </a>
                   <div class="content pt_20">
-                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                    <p class="text_reg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                      Ipsum has been the industry's standard dummy text ever since.</p>
                   </div>
                 </div>
 
@@ -535,7 +541,8 @@
           <div class="title_info pb_40">
             <div class="title">
               <h2 class="text_xl pb_20">Working across the pipeline</h2>
-              <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry, offering end-to-end solutions in rough and polished diamonds as well as jewelry.</p>
+              <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry,
+                offering end-to-end solutions in rough and polished diamonds as well as jewelry.</p>
             </div>
           </div>
           <div class="working_across_slider">
@@ -606,38 +613,136 @@
     </section>
 
     <section class="review_main">
+
+      <!-- <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
+      <img class="review_layer_two" src="img/home/review_layer_two.png" alt="review_layer_two" /> -->
+      <img class="review_layer_three" src="img/home/solutions_layer_one.png" alt="solutions_layer_one" />
       <div class="review_bg_img">
         <img src="img/home/review_img.jpg" alt="review_img" />
       </div>
-      <div class="review_content">
-        <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
-        <!-- <div class="review_layer">
-          
-        </div> -->
-        <div class="review_content_inside">
-          <img class="quate" src="img/home/quate.png" alt="quate" />
-          <p class="text_reg">
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s 
-          </p>
-          <div class="star ptb_20">
-            <img class="star" src="img/home/star.png" alt="star" />
-          </div>
-          <div class="name_bottom d_flex">
-            <div class="name_left">
-              <p class="text_reg">
-                Pranav Dandge
-              </p>
-              <p class="text_reg designation">
-                Action VFX, Owner
-              </p>
+
+      <div class="review_content_slider">
+
+        <div class="review_content">
+          <div class="review_content_inside">
+            <img class="quate" src="img/home/quate.png" alt="quate" />
+            <p class="text_reg">
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
+              a
+              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+            <div class="star ptb_20">
+              <img class="star" src="img/home/star.png" alt="star" />
             </div>
-            <div class="name_right">
-              <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+            <div class="name_bottom d_flex">
+              <div class="name_left">
+                <p class="text_reg">
+                  Pranav Dandge
+                </p>
+                <p class="text_reg designation">
+                  Action VFX, Owner
+                </p>
+              </div>
+              <div class="name_right">
+                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+              </div>
             </div>
           </div>
+
+        </div>
+
+        <div class="review_content">
+          <div class="review_content_inside">
+            <img class="quate" src="img/home/quate.png" alt="quate" />
+            <p class="text_reg">
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
+              a
+              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+            <div class="star ptb_20">
+              <img class="star" src="img/home/star.png" alt="star" />
+            </div>
+            <div class="name_bottom d_flex">
+              <div class="name_left">
+                <p class="text_reg">
+                  Pranav Dandge
+                </p>
+                <p class="text_reg designation">
+                  Action VFX, Owner
+                </p>
+              </div>
+              <div class="name_right">
+                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="review_content">
+          <div class="review_content_inside">
+            <img class="quate" src="img/home/quate.png" alt="quate" />
+            <p class="text_reg">
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
+              a
+              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+            <div class="star ptb_20">
+              <img class="star" src="img/home/star.png" alt="star" />
+            </div>
+            <div class="name_bottom d_flex">
+              <div class="name_left">
+                <p class="text_reg">
+                  Pranav Dandge
+                </p>
+                <p class="text_reg designation">
+                  Action VFX, Owner
+                </p>
+              </div>
+              <div class="name_right">
+                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="review_content">
+          <div class="review_content_inside">
+            <img class="quate" src="img/home/quate.png" alt="quate" />
+            <p class="text_reg">
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
+              a
+              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+            <div class="star ptb_20">
+              <img class="star" src="img/home/star.png" alt="star" />
+            </div>
+            <div class="name_bottom d_flex">
+              <div class="name_left">
+                <p class="text_reg">
+                  Pranav Dandge
+                </p>
+                <p class="text_reg designation">
+                  Action VFX, Owner
+                </p>
+              </div>
+              <div class="name_right">
+                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
+
     </section>
 
     <!--  end body content -->
@@ -648,31 +753,31 @@
   <script>
   $(document).ready(function(evt) {
 
-    $(".faq_section .faq_box > a").on("click", function () {
-        if ($(this).hasClass("active")) {
-          $(this).removeClass("active");
-          $(this)
-            .siblings(".content")
-            .slideUp(200);
-          $(".faq_box > a i")
-            .removeClass("fa-minus")
-            .addClass("fa-plus");
-        } else {
-          $(".faq_box > a i")
-            .removeClass("fa-minus")
-            .addClass("fa-plus");
-          $(this)
-            .find("i")
-            .removeClass("fa-plus")
-            .addClass("fa-minus");
-          $(".faq_box > a").removeClass("active");
-          $(this).addClass("active");
-          $(".content").slideUp(200);
-          $(this)
-            .siblings(".content")
-            .slideDown(200);
-        }
-      });
+    $(".faq_section .faq_box > a").on("click", function() {
+      if ($(this).hasClass("active")) {
+        $(this).removeClass("active");
+        $(this)
+          .siblings(".content")
+          .slideUp(200);
+        $(".faq_box > a i")
+          .removeClass("fa-minus")
+          .addClass("fa-plus");
+      } else {
+        $(".faq_box > a i")
+          .removeClass("fa-minus")
+          .addClass("fa-plus");
+        $(this)
+          .find("i")
+          .removeClass("fa-plus")
+          .addClass("fa-minus");
+        $(".faq_box > a").removeClass("active");
+        $(this).addClass("active");
+        $(".content").slideUp(200);
+        $(this)
+          .siblings(".content")
+          .slideDown(200);
+      }
+    });
 
 
 
