@@ -14,6 +14,7 @@ function jscss() {
       //'./src/js/vendor/jquery.validate.min.js',
       //'./src/js/vendor/jquery.form.min.js',
       "./src/js/vendor/slick.min.js",
+      "./src/js/vendor/scroll-out.min.js",
       //'./src/js/vendor/scrollmagic/TweenMax.min.js',
       //'./src/js/vendor/scrollmagic/ScrollMagic.min.js',
       //'./src/js/vendor/scrollmagic/animation.gsap.min.js',

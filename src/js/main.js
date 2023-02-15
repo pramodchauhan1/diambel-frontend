@@ -158,8 +158,8 @@ $(document).ready(function (evt) {
 
     $(".working_across_slider").slick({
       dots: false,
-      infinite: false,
-      autoplay: false,
+      infinite: true,
+      autoplay: true,
       arrows: false,
       speed: 1000,
       slidesToShow: 1,
@@ -284,4 +284,9 @@ $(window).on("resize", function () {});
 //################### window orientation change function ############################
 window.addEventListener("orientationchange", function () {
   location.reload();
+});
+
+//scrollout
+ScrollOut({
+  once: true,
 });

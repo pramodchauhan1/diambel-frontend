@@ -441,14 +441,41 @@
       }
 
       .working_across_slider {
-        width: 550px;
+        width: 600px;
         margin: 0 auto;
         @include mv-media(max, 767px) {
           width: 100%;
         }
         .working_across_slider_content {
+          position: relative;
           img {
             margin: 0 auto;
+          }
+          .txt{
+            font-size: 60px;
+            line-height: 80px;
+            color: var(--secondary-color);
+            font-family: var(--p_f_s_r);
+            position: absolute;
+            bottom: 35px;
+            right: 0px;
+            @include mv-media(max, 767px) {
+              font-size: 32px;
+              line-height: 40px;
+            }
+          }
+          
+          .txt_one{
+            right: 80px;
+            @include mv-media(max, 767px) {
+              right: 50px;
+            }
+          }
+          .txt_two{
+            right: 30px;
+            @include mv-media(max, 767px) {
+              right: 20px;
+            }
           }
         }
       }
