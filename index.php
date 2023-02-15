@@ -50,7 +50,7 @@
 
     <section class="journey_main ptb_100">
       <div class="container">
-        <div class="journey_title">
+        <div class="journey_title toTop" data-scroll>
           <h2 class="text_xxl">Our illustrious journey at a glance</h2>
         </div>
       </div>
@@ -58,13 +58,13 @@
 
     <section class="values_shape_main pb_100">
       <div class="container">
-        <div class="values_shape_title">
+        <div class="values_shape_title toTop" data-scroll>
           <h2 class="text_xxl">Values that shape us</h2>
         </div>
 
         <div class="values_shape_flex d_flex">
 
-          <div class="values_shape_box border_r15">
+          <div class="values_shape_box border_r15 toTop" data-scroll>
             <div class="value_shape_img">
               <img src="img/home/reliability.png" alt="reliability" />
             </div>
@@ -79,7 +79,7 @@
             </div>
           </div>
 
-          <div class="values_shape_box border_r15">
+          <div class="values_shape_box border_r15 toTop" data-scroll>
             <div class="value_shape_img">
               <img src="img/home/transparency.png" alt="transparency" />
             </div>
@@ -94,7 +94,7 @@
             </div>
           </div>
 
-          <div class="values_shape_box border_r15">
+          <div class="values_shape_box border_r15 toTop" data-scroll>
             <div class="value_shape_img">
               <img src="img/home/adaptive.png" alt="adaptability" />
             </div>
@@ -116,7 +116,7 @@
     <section class="nature_main pb_100">
       <div class="container">
 
-        <div class="title_info d_flex pb_40">
+        <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
             <h2 class="text_xxl pb_20">Committed to nature</h2>
             <p class="text_reg">To honor the unmatched value of natural diamonds at every step of the process,
@@ -128,7 +128,7 @@
           </div>
         </div>
 
-        <div class="nature_img">
+        <div class="nature_img toTop" data-scroll>
           <img src="img/home/nature_img.jpg" alt="nature_img" />
           <div class="vactor_one postion_vector">
             <img src="img/home/nature_vector_one.png" alt="nature_vector_one" />
@@ -146,7 +146,7 @@
       <div class="our_catalogue">
         <div class="container">
 
-          <div class="title_info d_flex pb_40">
+          <div class="title_info d_flex pb_40 toTop" data-scroll>
             <div class="title">
               <h2 class="text_xxl">Our catalogue</h2>
             </div>
@@ -155,7 +155,7 @@
             </div>
           </div>
 
-          <div class="tab-menu" data-scroll>
+          <div class="tab-menu toTop" data-scroll>
             <ul>
               <li><a href="javascript:void(0)" class="tab-a text_reg active-a" data-id="polished_diamonds">Polished
                   Diamonds</a>
@@ -164,7 +164,7 @@
             </ul>
           </div>
 
-          <div class="tab-main-box" data-scroll>
+          <div class="tab-main-box toTop" data-scroll>
 
             <div class="tab-box tab-active" data-id="polished_diamonds">
 
@@ -428,7 +428,7 @@
       <div class="solutions_diamonds pt_100">
         <div class="container">
 
-          <div class="title_info d_flex pb_40">
+          <div class="title_info d_flex pb_40 toTop" data-scroll>
             <div class="title">
               <h2 class="text_xxl pb_20">Solutions beyond diamonds</h2>
               <p class="text_reg">We go over and above the industry norms to provide you with 360-degree services, from
@@ -441,13 +441,13 @@
           </div>
 
           <div class="solutions_diamonds_flex d_flex">
-            <div class="solutions_diamonds_left">
+            <div class="solutions_diamonds_left toTop" data-scroll>
               <img class="border_r15 solution_main_img" src="img/home/solutions_img.jpg" alt="solutions_img" />
               <img class="solutions_layer_one p_s" src="img/home/solutions_layer_one.png" alt="solutions_img" />
               <img class="solutions_layer_two p_s" src="img/home/solutions_layer_two.png" alt="solutions_img" />
               <img class="solutions_layer_three p_s" src="img/home/solutions_layer_three.png" alt="solutions_img" />
             </div>
-            <div class="solutions_diamonds_right">
+            <div class="solutions_diamonds_right toTop" data-scroll>
               <div class="faq_section">
                 <div class="faq_box ptb_20">
                   <a href="javascript:void(0)" class="faq_title">
@@ -538,7 +538,7 @@
         <img class="working_layer_three p_s" src="img/home/working_layer_three.png" alt="working_layer" />
         <img class="working_layer_four p_s" src="img/home/working_layer_four.png" alt="working_layer" />
         <div class="container">
-          <div class="title_info pb_40">
+          <div class="title_info pb_40 toTop" data-scroll>
             <div class="title">
               <h2 class="text_xl pb_20">Working across the pipeline</h2>
               <p class="text_reg">Diambel has created a vertically integrated pipeline in the natural diamond industry,
@@ -548,12 +548,15 @@
           <div class="working_across_slider">
             <div class="working_across_slider_content">
               <img class="" src="img/home/rough.png" alt="rough" />
+              <p class="txt txt_one">Rough</p>
             </div>
             <div class="working_across_slider_content">
               <img class="" src="img/home/polished.png" alt="polished" />
+              <p class="txt txt_two">Polished</p>
             </div>
             <div class="working_across_slider_content">
               <img class="" src="img/home/jewellery.png" alt="jewellery" />
+              <p class="txt">‘Jewellery</p>
             </div>
           </div>
         </div>
@@ -563,14 +566,14 @@
 
     <section class="crystallising_main ptb_100">
       <div class="container">
-        <div class="title_info pb_40">
+        <div class="title_info pb_40 toTop" data-scroll>
           <div class="title">
             <h2 class="text_xl pb_20">Crystallising partnerships <br class="hidden-xs">for 30+ years</h2>
             <p class="text_reg">Businesses across the pipeline have put their faith in us.</p>
           </div>
         </div>
       </div>
-      <div class="crystallising_logo">
+      <div class="crystallising_logo toTop" data-scroll>
         <div class="logo_slider">
           <div class="logo_item">
             <img src="img/home/unilever_logo.jpg" alt="unilever_logo" />
@@ -614,133 +617,144 @@
 
     <section class="review_main">
 
-      <!-- <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
-      <img class="review_layer_two" src="img/home/review_layer_two.png" alt="review_layer_two" /> -->
+
       <img class="review_layer_three" src="img/home/solutions_layer_one.png" alt="solutions_layer_one" />
-      <div class="review_bg_img">
+      <!-- <div class="review_bg_img">
         <img src="img/home/review_img.jpg" alt="review_img" />
-      </div>
+      </div> -->
 
-      <div class="review_content_slider">
+      <div class="container">
+        <img class="review_layer_one" src="img/home/review_layer_one.png" alt="review_layer_one" />
+        <img class="review_layer_two" src="img/home/review_layer_two.png" alt="review_layer_two" />
+        <div class="review_content_slider toTop" data-scroll>
 
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
               </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
               </div>
             </div>
+
+          </div>
+
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
+              </div>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
+              </div>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="review_content">
+            <div class="review_content_inside">
+              <img class="quate" src="img/home/quate.png" alt="quate" />
+              <p class="text_reg">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
+                took
+                a
+                galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's
+                standard
+                dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
+                type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              </p>
+              <div class="star ptb_20">
+                <img class="star" src="img/home/star.png" alt="star" />
+              </div>
+              <div class="name_bottom d_flex">
+                <div class="name_left">
+                  <p class="text_reg">
+                    Pranav Dandge
+                  </p>
+                  <p class="text_reg designation">
+                    Action VFX, Owner
+                  </p>
+                </div>
+                <div class="name_right">
+                  <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
+                </div>
+              </div>
+            </div>
+
           </div>
 
         </div>
-
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
-              </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
-              </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="review_content">
-          <div class="review_content_inside">
-            <img class="quate" src="img/home/quate.png" alt="quate" />
-            <p class="text_reg">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took
-              a
-              galley of type and scrambled it to make a type specimen book. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a
-              type specimen book.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            </p>
-            <div class="star ptb_20">
-              <img class="star" src="img/home/star.png" alt="star" />
-            </div>
-            <div class="name_bottom d_flex">
-              <div class="name_left">
-                <p class="text_reg">
-                  Pranav Dandge
-                </p>
-                <p class="text_reg designation">
-                  Action VFX, Owner
-                </p>
-              </div>
-              <div class="name_right">
-                <span><img class="star" src="img/home/person_icon.png" alt="star" /></span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
 
     </section>
@@ -748,7 +762,7 @@
     <section class="upcoming_events ptb_100">
       <div class="container">
 
-        <div class="title_info d_flex pb_40">
+        <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
             <h2 class="text_xxl">Upcoming events</h2>
           </div>
@@ -757,7 +771,7 @@
           </div>
         </div>
 
-        <div class="upcoming_events_flex d_flex upcoming_events_slider">
+        <div class="upcoming_events_flex d_flex upcoming_events_slider toTop" data-scroll>
 
           <div class="upcoming_events_content">
             <div class="upcoming_events_box border_r15">
@@ -862,9 +876,9 @@
     <section class="corporate_social pb_100">
       <div class="container">
 
-        <div class="title_info d_flex pb_40">
+        <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl pb_20">Corporate social responsibility</h2>
+            <h2 class="text_xxl pb_20">Corporate social responsibility</h2> 
             <p class="text_reg">Lorem ipsum dolor sit amet, consetetur sadipscing <br>elitr, sed diam nonumy eirmod
               tempor.
             </p>
@@ -874,7 +888,7 @@
           </div>
         </div>
 
-        <div class="corporate_social_flex corporate_social_slider">
+        <div class="corporate_social_flex corporate_social_slider toTop" data-scroll>
 
           <div class="corporate_content">
             <div class="corporate_social_item">
@@ -916,6 +930,24 @@
 
         <div class="progress progress_green progress4">
           <div class="progress_bar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get_started">
+      <div class="container">
+        <div class="get_started_flex d_flex ptb_40 toTop" data-scroll>
+          <div class="get_started_left">
+            <h2 class="text_xxl">Let’s get started</h2>
+          </div>
+          <div class="get_started_right">
+            <div class="btn_box">
+              <a class="btn_project_default black_btn" href="">Create Account</a>
+            </div>
+            <div class="inquire_btn">
+              <a class="btn_project_default" href="">Inquire Now</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
