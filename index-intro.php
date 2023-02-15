@@ -28,7 +28,10 @@
             </video>
         </section>
         <section class="banner-sec">
-
+            <picture>
+                <!-- <source media="(max-width:465px)" srcset="img_white_flower.jpg"> -->
+                <img src="img/intro/banner.jpg" class="bannerImg">
+            </picture>
 
             <div class="bannerText">
                 <h1 class="bannerHead">
