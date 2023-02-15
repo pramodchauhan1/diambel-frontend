@@ -878,7 +878,7 @@
 
         <div class="title_info d_flex pb_40 toTop" data-scroll>
           <div class="title">
-            <h2 class="text_xxl pb_20">Corporate social responsibility</h2>
+            <h2 class="text_xxl pb_20">Corporate social responsibility</h2> 
             <p class="text_reg">Lorem ipsum dolor sit amet, consetetur sadipscing <br>elitr, sed diam nonumy eirmod
               tempor.
             </p>
