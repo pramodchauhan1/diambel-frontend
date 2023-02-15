@@ -1,3 +1,8 @@
+body {
+  &.overflowAU {
+    overflow: hidden;
+  }
+}
 .solution_main_img {
   &.imgSec {
     position: relative;
@@ -32,6 +37,9 @@
   overflow: hidden;
   .bannerImg {
     transform: scale(1.1);
+    &.bannerImgAnim {
+      transform: scale(1);
+    }
   }
   .bannerText {
     @extend .rel_y_center;

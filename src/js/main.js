@@ -287,6 +287,6 @@ window.addEventListener("orientationchange", function () {
 });
 
 //scrollout
-ScrollOut({
-  once: true,
-});
+// ScrollOut({
+//   once: true,
+// });
