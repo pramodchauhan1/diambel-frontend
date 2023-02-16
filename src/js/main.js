@@ -250,6 +250,50 @@ $(document).ready(function (evt) {
         },
       ],
     });
+
+    $(".slider-for").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: ".slider-nav",
+    });
+
+    $(".slider-nav").slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      vertical: true,
+      asNavFor: ".slider-for",
+      dots: false,
+      focusOnSelect: true,
+      verticalSwiping: true,
+      prevArrow:
+        '<img src="img/arrow_prev.png" class="slide-arrow prev-arrow">',
+      nextArrow:
+        '<img src="img/arrow_next.png" class="slide-arrow next-arrow">',
+      responsive: [
+        {
+          breakpoint: 1199,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            dots: true,
+            arrows: false,
+          },
+        },
+      ],
+    });
   }
 });
 
